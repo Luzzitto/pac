@@ -36,6 +36,10 @@ export default function Home() {
   const resetTimer = () => {
     setSeconds(1500);
     setIsActive(false);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
   };
 
   return (
@@ -53,7 +57,7 @@ export default function Home() {
           Reset
         </button>
       </div>
-      <audio ref={audioRef} src="/path/to/your/audio/file.mp3" />
+      <audio ref={audioRef} src="/nightmare.mp3" />
     </div>
   );
 }
