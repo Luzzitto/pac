@@ -2,6 +2,10 @@
 
 PAC (Pomodoro Alarm Clock) is a simple application that keeps alarming at a set interval to help you manage your time using the Pomodoro Technique.
 
+## Demo
+
+![Screenshot Demo](public/ScreenShot%20Tool%20-20250213162756.png)
+
 ## Getting Started
 
 First, run the development server:
